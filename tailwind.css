@@ -1,0 +1,40 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles */
+.container {
+  @apply mx-auto max-w-md px-4;
+}
+
+.text-center {
+  @apply text-center;
+}
+
+.bg-white {
+  @apply bg-white;
+}
+
+#header {
+  @apply text-3xl font-bold py-4;
+}
+
+#main-content {
+  @apply py-8;
+}
+
+#footer {
+  @apply text-sm py-4 border-t;
+}
+
+#subscription-form {
+  @apply mt-8;
+}
+
+#subscription-form input[type="email"] {
+  @apply border px-4 py-2 w-full;
+}
+
+#subscription-form button {
+  @apply bg-blue-500 text-white px-4 py-2 mt-4;
+}

@@ -1,0 +1,32 @@
+@import 'tailwind.css';
+
+/* Custom styles */
+#header {
+    background-color: #f8f9fa;
+}
+
+#footer {
+    background-color: #f8f9fa;
+}
+
+#main-content {
+    padding: 20px;
+}
+
+#subscription-form {
+    margin: 20px auto;
+    width: 50%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
